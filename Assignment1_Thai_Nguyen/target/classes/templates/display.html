@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link th:href="@{/css/displaycss.css}" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+<h1>Your List of Tickets</h1>
+
+<hr>
+	
+
+<table border="1">
+    <tr>
+        <th>Customer Name</th>
+        <th>Email Address</th>
+        <th>Phone Number</th>
+        <th>Date Of Birth</th>
+        <th>Customer Address</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    <tr th:each="t:${viewticket}">
+        <td th:text="${t.name}"></td>
+        <td th:text="${t.email}"></td>
+        <td th:text="${t.phone}"></td>
+        <td th:text="${t.date}"></td>
+        <td th:text="${t.address}"></td>
+        <td th:text="${t.quantity}"></td>
+        <td th:text="${t.price}"></td>
+    </tr>
+</table>
+	
+	<br>
+	
+	
+	
+<a href="/">Return to Home Page</a> <br>
+<a href="/goAdd">Return to Add Ticket Page</a>
+
+
+
+
+
+
+
+
+</body>
+</html>

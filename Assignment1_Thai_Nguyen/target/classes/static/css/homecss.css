@@ -1,0 +1,43 @@
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	top: 73px;
+	left: 0;
+	margin: 0;
+	position: relative;
+}
+
+body{
+	background-image: url("../Home.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 700px;
+
+}
+
+#bottom{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:relative;
+	top: 500px;
+
+}
+
+button{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: blueviolet;
+	width: 200px;
+	height: 70px;
+	margin: 5px;
+}
+
+p{
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: blueviolet;
+}

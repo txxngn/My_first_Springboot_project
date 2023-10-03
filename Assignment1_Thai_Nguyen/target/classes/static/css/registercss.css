@@ -1,0 +1,33 @@
+h1 {
+	color: black;
+	text-align: center;
+	position: relative;
+	top:190px;
+}
+
+body{
+	background-image: url("../Register.jpg");
+	background-repeat: no-repeat;
+	background-size: 1500px 250px;
+	
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 160px;
+	font-size: 25px;
+}
+
+#button{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: aqua;
+	width: 180px;
+	height: 40px;
+	margin: 5px;
+	text-align: center;
+}
